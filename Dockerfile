@@ -2,7 +2,7 @@ From openjdk:11
 
 copy target/microservicedemo-0.0.1-SNAPSHOT.jar microservicedemo.jar
 
-EXPOSE 9080
+EXPOSE 8080
 
 ARG DB_URL
 ARG DB_USER
